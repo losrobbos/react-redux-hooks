@@ -1,0 +1,4 @@
+// ACTION TYPES
+export const FETCHED_TODOS = "FETCHED_TODOS"
+export const UPDATE_TODO = "UPDATE_TODO"
+

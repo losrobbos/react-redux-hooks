@@ -1,6 +1,6 @@
 import "./App.css"
 import { useDispatch, useSelector } from "react-redux"
-import { add, changeMessage } from "./store/main_actions"
+import { add, changeMessage } from "./store/main/actions"
 
 function App() {
   const count = useSelector((state) => state.main.count)

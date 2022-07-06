@@ -19,8 +19,9 @@ const mainReducer = (state = initialState, action) => {
     case CHANGE_MESSAGE:
       console.log("Full state:", state)
       return { ...state, message: action.payload }
+    // invalid action => no change to state
     default:
-      return { ...state }
+      return state 
   }
 
 }

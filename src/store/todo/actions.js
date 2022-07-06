@@ -1,4 +1,4 @@
-import { FETCHED_TODOS, UPDATE_TODO } from './types'
+import { FETCHED_TODOS, UPDATE_TODO } from '../types'
 
 export const fetchedTodos = (todos) => ({ type: FETCHED_TODOS, payload: todos})
 export const updateTodo = (todoUpdated) => ({ type: UPDATE_TODO, payload: todoUpdated })
